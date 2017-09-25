@@ -22,5 +22,8 @@
     "mongoose": "^4.11.13",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
   }
 }
