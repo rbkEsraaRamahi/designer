@@ -1,0 +1,26 @@
+{
+  "name": "designer",
+  "version": "1.0.0",
+  "description": "<!--  > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbkEsraaRamahi/designer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rbkEsraaRamahi/designer/issues"
+  },
+  "homepage": "https://github.com/rbkEsraaRamahi/designer#readme",
+  "dependencies": {
+    "express": "^4.15.5",
+    "mongoose": "^4.11.13",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
