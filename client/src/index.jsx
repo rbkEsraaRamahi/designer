@@ -10,29 +10,41 @@ class App extends React.Component {
 		}
 	}
 
+	onChange (e) {
+    this.setState({
+      term: e.target.value
+    });
+  }
+
+
 	repeat(){
 	(this.props.yourStatment).repeat(this.props.repeats)
+
 }
 
 render(){
 	return (<div>
-		<h3> Write your repeated statment </h3>
-		<input value = {this.state.yourStatment}, />
-		<input value = {this.state.repeats} />
-		<button onClick = {this.repeat}> do it </button>
-	</div>
-	<div>
+		<h3> Insert: </h3> 
+		Your repeated statment: <input value = {this.state.yourStatment}/>
+		<br/>
+
+		the number of repeats: <input value = {this.state.repeats} />
+		
+		<button onClick = {repeat}> do it </button>
+		
+		<br/>
 		<lu>
-			repeat()
+			
 		</lu>
+
 	</div>)
+	
 }
 
 
 }
 
 ReactDOM.render(<App />, document.getElementById('app'));
-
 
 
 
