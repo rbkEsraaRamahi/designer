@@ -1,9 +1,9 @@
 var express = require ('express')
 var app = express()
 
-app.get('/', function (req, res){
-	res.render('index.jsx')
-})
+// app.get('/', function (req, res){
+// 	res.render('index.jsx')
+// })
 
 app.post('/',function(req,res){
 	var yourStatment = req.body.yourStatment;
